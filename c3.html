@@ -1,0 +1,91 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brittany Chiang | IS 4300</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+  <body>
+
+
+    <nav class="top-bar foundation-bar" data-topbar-role="navigation">
+
+      <ul class="title-area">
+        <li class="name"><h1><a href="http://www.ccs.neu.edu/home/bchiang7/is4300.html">IS 4300</a></h1></li>
+      </ul>
+
+      <section class="top-bar-section">
+        <ul class="right">
+          <li><a href="http://www.ccs.neu.edu/home/bchiang7/about.html">About</a></li>
+          <li><a href="http://www.ccs.neu.edu/home/bchiang7/assignments.html">Assignments</a></li>
+          <li><a href="http://www.ccs.neu.edu/home/bchiang7/critiques.html">Paper Critiques</a></li>
+          <li><a href="http://www.ccs.neu.edu/home/bchiang7/project.html">Term Project</a></li>
+        </ul>
+      </section>
+
+    </nav>
+
+    <div class="large-12 columns white-bar"></div>
+    
+    <div class="row">
+      <div class="large-9 push-3 columns panel">
+
+        <h3>"FrameWire" Critique<small>&nbsp;&nbsp;3/5/15</small></h3>
+
+        <p>Read the CHI article <a href="https://www.ccs.neu.edu/course/is4300sp15/ssl/pp2.pdf" target="_blank">here</a>.</p>
+
+        <p>Paper prototyping has been a widely used technique used by designers and developers for years.  It allows the designer to easily and quickly create a visual and tangible user interface mockup using simple tools such as paper and pens.  The user can interact with the paper prototype as if it were a real system, and by vocalizing their actions, the designer can get a qualitative feedback as well as observe how users will use the design.  This paper presented a tool called FrameWire.  In a nutshell, FrameWire is a computer vision-based tool that extracts a meaningful interaction flow graph from raw video clips of paper prototyping tests.  It addresses a major issue that comes with the spontaneous and physical nature of paper prototyping, which makes it difficult to analyze and communicate a design and test findings to a broader audience.  FrameWire offers two major advantages for designers: a structural view of video recording that allows a designer or a stakeholder to easily analyze a design concept and user interaction behaviors, and automatic generation of real interactive HTML-based prototypes that can be easily tested by a larger audience on the web.  The "extraction" of the prototype from paper to computer is achieved by automatically collecting video frame sequences into an interaction flow graph based on similarities in frames and a clustering process controlled by the designer.</p>
+
+        <p>Designers often video tape a test of a user interface to capture different interaction scenarios and to observe and collect feedback from the user.  Hearing the user's thought process in addition to observing their actions is vital for rethinking the design of a interface with each iteration.  This is why designers are quite willing to videotape a test but reluctant to review their recorded video clips.  FrameWire provides a happy and convenient medium between paper prototyping and video testing.  It eliminates the laborious process of having to manually search through and edit video by recognizing interface screens through video and automatically generating editable interaction flow graphs.  This allows FrameWire to preserve the practices and advantages of traditional paper prototyping while bringing a paper prototype forward into an "editable and interactive electronic form".  Moreover, it is able to extract a full flow graph rather than just sequential steps.  The usage of video to capture the users' actions and vocal concerns also allows for a deeper analysis of the behavior only possible with electronic prototypes.  Basically, it is the best of both worlds.  I think that it is a great tool that could be very beneficial for designers.  It could expedite the process for creating the best user interface design and decrease the number of iterations of a product before production.</p>
+
+        <p>However, as they acknowledged in the paper, FrameWire does have its faults.  In the paper, they went into detail about the technical side of how this program works.  To be able to recognize an interaction screen, the paper prototype must be a rectangular piece of paper.  If the paper prototype is not rectangular, then FrameWire ceases to work.  To indicate the cursor, the person interacting with the paper prototype must wear a blue finger tip.  This is the only special requirement for Framewire, other than having a steady  camera (in which if you don't, you may have to start all over).  As they did mention in the paper, FrameWire only accounts for one blue finger tip.  This means that it cannot account for multiple finger gestures on the screen, which is prevalent in touch screen technologies today.  It also means that FrameWire only can detect click events.  This is not a catastrophic flaw, but is something to strongly consider for further development.  Another aspect of FrameWire that could be a potential annoyance is how the program extracts and elicits user interface screens into a complete flow graph.  It does this by clustering and calculating instances of the same frame.  If there are significant differences in the frames, it interprets that as being new screen.  Of course, if the automatic extraction does not fully capture the designer's intent, the designer can interactively "refine" and annotate the generated flow graph.  FrameWire provides an "Extract slider" for this purpose.  This can be a tedious task, but is probably worth it for the purposes of the tool.  One more thing that I found to be concerning about FrameWire is that the automatically generated flow graphs are presented on a screen in a confusing way (as you can see below).  Although each screen is differentiated by number, the arrow linking screens together can be confusing, and at times, misleading.</p>
+
+        <img src="http://static.tumblr.com/d5odntq/5mJnkmczl/screen_shot_2015-03-02_at_11.18.54_pm.png"/>
+        <br>
+
+        <p><br>Thus, FrameWire is a happy medium between traditional paper prototyping and digital interactive prototypes.  It allows designers to extract interaction flow graphs from raw video clips of paper prototyping tests.  This innovation makes it possible for designers to easily analyze user feedback by viewing generated statistics and by directly indexing  video segments related to each interaction behavior.  FrameWire also semi-automatically transforms paper prototypes into interactive HTML-based prototypes.  Though it has its flaws, the idea of FrameWire has great potential.</p>
+
+      </div>
+
+
+      <div class="large-3 pull-9 columns">
+        <ul class="side-nav">
+          <li><a href="http://www.ccs.neu.edu/home/bchiang7/c1.html">Critique 1</a></li>
+          <li><a href="http://www.ccs.neu.edu/home/bchiang7/c2.html">Critique 2</a></li>
+          <li class="active"><a href="http://www.ccs.neu.edu/home/bchiang7/c3.html">Critique 3</a></li>
+          <li><a href="http://www.ccs.neu.edu/home/bchiang7/c4.html">Critique 4</a></li>
+          <li><a href="http://www.ccs.neu.edu/home/bchiang7/c5.html">Critique 5</a></li>
+        </ul>
+      </div>
+    </div>
+    
+
+          
+    <footer class="row">
+      <div class="large-12 columns">
+        <hr/>
+        <div class="row">
+          <div class="large-6 columns">
+             <p>&copy; Brittany Chiang 2015</p>
+          </div>
+          <div class="large-6 columns">
+            <ul class="inline-list right">
+              <li><a href="http://www.ccs.neu.edu/home/bchiang7/about.html">About</a></li>
+              <li><a href="http://www.ccs.neu.edu/home/bchiang7/assignments.html">Assignments</a></li>
+              <li><a href="http://www.ccs.neu.edu/home/bchiang7/critiques.html">Paper Critiques</a></li>
+              <li><a href="http://www.ccs.neu.edu/home/bchiang7/project.html">Term Project</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>      
+    
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
